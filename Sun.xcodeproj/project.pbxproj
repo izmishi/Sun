@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		802F348B26C07DDC00B810A0 /* SunApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F348A26C07DDC00B810A0 /* SunApp.swift */; };
+		802F348D26C07DDC00B810A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802F348C26C07DDC00B810A0 /* ContentView.swift */; };
+		802F348F26C07DDD00B810A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802F348E26C07DDD00B810A0 /* Assets.xcassets */; };
+		802F349226C07DDD00B810A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802F349126C07DDD00B810A0 /* Preview Assets.xcassets */; };
+		8036C71727FF93FB00E79074 /* Alternate Numeral Glyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036C71627FF93FB00E79074 /* Alternate Numeral Glyphs.swift */; };
+		8036C71827FF961C00E79074 /* Alternate Numeral Glyphs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036C71627FF93FB00E79074 /* Alternate Numeral Glyphs.swift */; };
+		8036C73627FFA4BA00E79074 /* SunTableWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8036C73527FFA4BA00E79074 /* SunTableWidget.intentdefinition */; };
+		8036C73927FFA54F00E79074 /* SunTableWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036C73727FFA51200E79074 /* SunTableWidget.swift */; };
+		8036C73A27FFA55300E79074 /* SunTableWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8036C73527FFA4BA00E79074 /* SunTableWidget.intentdefinition */; };
+		8036C73D27FFA63C00E79074 /* WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036C73B27FFA63300E79074 /* WidgetBundle.swift */; };
+		8063419D26C17828000A2A5D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063419C26C17828000A2A5D /* LocationManager.swift */; };
+		808E86FB26C0D180004B5048 /* Sunlight in Frameworks */ = {isa = PBXBuildFile; productRef = 808E86FA26C0D180004B5048 /* Sunlight */; };
+		80A3B7C726C292D1007F5564 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A3B7C626C292D1007F5564 /* WidgetKit.framework */; };
+		80A3B7C926C292D1007F5564 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A3B7C826C292D1007F5564 /* SwiftUI.framework */; };
+		80A3B7CC26C292D1007F5564 /* SunWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3B7CB26C292D1007F5564 /* SunWidget.swift */; };
+		80A3B7CF26C292D1007F5564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80A3B7CE26C292D1007F5564 /* Assets.xcassets */; };
+		80A3B7D126C292D1007F5564 /* SunWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 80A3B7CD26C292D1007F5564 /* SunWidget.intentdefinition */; };
+		80A3B7D226C292D1007F5564 /* SunWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 80A3B7CD26C292D1007F5564 /* SunWidget.intentdefinition */; };
+		80A3B7D526C292D1007F5564 /* SunWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 80A3B7C426C292D1007F5564 /* SunWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		80A3B7DA26C292E2007F5564 /* SunGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8C6CB26C0833900C7F338 /* SunGraphView.swift */; };
+		80A3B7DB26C29597007F5564 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8063419C26C17828000A2A5D /* LocationManager.swift */; };
+		80A3B7DC26C2964E007F5564 /* Custom Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0AD2026C1FD9800FC4DAA /* Custom Styles.swift */; };
+		80A3B7DD26C29656007F5564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 802F348E26C07DDD00B810A0 /* Assets.xcassets */; };
+		80A3B7DE26C29661007F5564 /* Preview Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8C6CD26C083B600C7F338 /* Preview Data.swift */; };
+		80A3B7E026C29779007F5564 /* Ephemeris in Frameworks */ = {isa = PBXBuildFile; productRef = 80A3B7DF26C29779007F5564 /* Ephemeris */; };
+		80A3B7E226C29779007F5564 /* Sunlight in Frameworks */ = {isa = PBXBuildFile; productRef = 80A3B7E126C29779007F5564 /* Sunlight */; };
+		80C0AD2126C1FD9800FC4DAA /* Custom Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0AD2026C1FD9800FC4DAA /* Custom Styles.swift */; };
+		80E8C6CC26C0833900C7F338 /* SunGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8C6CB26C0833900C7F338 /* SunGraphView.swift */; };
+		80E8C6CE26C083B600C7F338 /* Preview Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E8C6CD26C083B600C7F338 /* Preview Data.swift */; };
+		80E8C6D426C08DB300C7F338 /* Ephemeris in Frameworks */ = {isa = PBXBuildFile; productRef = 80E8C6D326C08DB300C7F338 /* Ephemeris */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80A3B7D326C292D1007F5564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802F347F26C07DDC00B810A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80A3B7C326C292D1007F5564;
+			remoteInfo = SunWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		80A3B7D626C292D1007F5564 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				80A3B7D526C292D1007F5564 /* SunWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		802F348726C07DDC00B810A0 /* Sun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		802F348A26C07DDC00B810A0 /* SunApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunApp.swift; sourceTree = "<group>"; };
+		802F348C26C07DDC00B810A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		802F348E26C07DDD00B810A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		802F349126C07DDD00B810A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		802F349326C07DDD00B810A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8036C71627FF93FB00E79074 /* Alternate Numeral Glyphs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alternate Numeral Glyphs.swift"; sourceTree = "<group>"; };
+		8036C73527FFA4BA00E79074 /* SunTableWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SunTableWidget.intentdefinition; sourceTree = "<group>"; };
+		8036C73727FFA51200E79074 /* SunTableWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunTableWidget.swift; sourceTree = "<group>"; };
+		8036C73B27FFA63300E79074 /* WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBundle.swift; sourceTree = "<group>"; };
+		8063419C26C17828000A2A5D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		80A3B7C426C292D1007F5564 /* SunWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SunWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A3B7C626C292D1007F5564 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		80A3B7C826C292D1007F5564 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		80A3B7CB26C292D1007F5564 /* SunWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunWidget.swift; sourceTree = "<group>"; };
+		80A3B7CD26C292D1007F5564 /* SunWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = SunWidget.intentdefinition; sourceTree = "<group>"; };
+		80A3B7CE26C292D1007F5564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80A3B7D026C292D1007F5564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80C0AD2026C1FD9800FC4DAA /* Custom Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Styles.swift"; sourceTree = "<group>"; };
+		80E8C6CB26C0833900C7F338 /* SunGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunGraphView.swift; sourceTree = "<group>"; };
+		80E8C6CD26C083B600C7F338 /* Preview Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preview Data.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802F348426C07DDC00B810A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808E86FB26C0D180004B5048 /* Sunlight in Frameworks */,
+				80E8C6D426C08DB300C7F338 /* Ephemeris in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A3B7C126C292D1007F5564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A3B7E026C29779007F5564 /* Ephemeris in Frameworks */,
+				80A3B7C926C292D1007F5564 /* SwiftUI.framework in Frameworks */,
+				80A3B7E226C29779007F5564 /* Sunlight in Frameworks */,
+				80A3B7C726C292D1007F5564 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802F347E26C07DDC00B810A0 = {
+			isa = PBXGroup;
+			children = (
+				802F348926C07DDC00B810A0 /* Sun */,
+				80A3B7CA26C292D1007F5564 /* SunWidget */,
+				80A3B7C526C292D1007F5564 /* Frameworks */,
+				802F348826C07DDC00B810A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		802F348826C07DDC00B810A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802F348726C07DDC00B810A0 /* Sun.app */,
+				80A3B7C426C292D1007F5564 /* SunWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		802F348926C07DDC00B810A0 /* Sun */ = {
+			isa = PBXGroup;
+			children = (
+				802F348A26C07DDC00B810A0 /* SunApp.swift */,
+				802F348C26C07DDC00B810A0 /* ContentView.swift */,
+				80E8C6CB26C0833900C7F338 /* SunGraphView.swift */,
+				8063419C26C17828000A2A5D /* LocationManager.swift */,
+				8036C71627FF93FB00E79074 /* Alternate Numeral Glyphs.swift */,
+				80C0AD2026C1FD9800FC4DAA /* Custom Styles.swift */,
+				802F348E26C07DDD00B810A0 /* Assets.xcassets */,
+				802F349326C07DDD00B810A0 /* Info.plist */,
+				802F349026C07DDD00B810A0 /* Preview Content */,
+			);
+			path = Sun;
+			sourceTree = "<group>";
+		};
+		802F349026C07DDD00B810A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				802F349126C07DDD00B810A0 /* Preview Assets.xcassets */,
+				80E8C6CD26C083B600C7F338 /* Preview Data.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80A3B7C526C292D1007F5564 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A3B7C626C292D1007F5564 /* WidgetKit.framework */,
+				80A3B7C826C292D1007F5564 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80A3B7CA26C292D1007F5564 /* SunWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8036C73B27FFA63300E79074 /* WidgetBundle.swift */,
+				80A3B7CB26C292D1007F5564 /* SunWidget.swift */,
+				8036C73727FFA51200E79074 /* SunTableWidget.swift */,
+				80A3B7CD26C292D1007F5564 /* SunWidget.intentdefinition */,
+				8036C73527FFA4BA00E79074 /* SunTableWidget.intentdefinition */,
+				80A3B7CE26C292D1007F5564 /* Assets.xcassets */,
+				80A3B7D026C292D1007F5564 /* Info.plist */,
+			);
+			path = SunWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802F348626C07DDC00B810A0 /* Sun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802F349626C07DDD00B810A0 /* Build configuration list for PBXNativeTarget "Sun" */;
+			buildPhases = (
+				802F348326C07DDC00B810A0 /* Sources */,
+				802F348426C07DDC00B810A0 /* Frameworks */,
+				802F348526C07DDC00B810A0 /* Resources */,
+				80A3B7D626C292D1007F5564 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80A3B7D426C292D1007F5564 /* PBXTargetDependency */,
+			);
+			name = Sun;
+			packageProductDependencies = (
+				80E8C6D326C08DB300C7F338 /* Ephemeris */,
+				808E86FA26C0D180004B5048 /* Sunlight */,
+			);
+			productName = Sun;
+			productReference = 802F348726C07DDC00B810A0 /* Sun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80A3B7C326C292D1007F5564 /* SunWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80A3B7D926C292D1007F5564 /* Build configuration list for PBXNativeTarget "SunWidgetExtension" */;
+			buildPhases = (
+				80A3B7C026C292D1007F5564 /* Sources */,
+				80A3B7C126C292D1007F5564 /* Frameworks */,
+				80A3B7C226C292D1007F5564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunWidgetExtension;
+			packageProductDependencies = (
+				80A3B7DF26C29779007F5564 /* Ephemeris */,
+				80A3B7E126C29779007F5564 /* Sunlight */,
+			);
+			productName = SunWidgetExtension;
+			productReference = 80A3B7C426C292D1007F5564 /* SunWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802F347F26C07DDC00B810A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					802F348626C07DDC00B810A0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					80A3B7C326C292D1007F5564 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 802F348226C07DDC00B810A0 /* Build configuration list for PBXProject "Sun" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 802F347E26C07DDC00B810A0;
+			packageReferences = (
+				80E8C6D226C08DB300C7F338 /* XCRemoteSwiftPackageReference "Ephemeris" */,
+				808E86F926C0D180004B5048 /* XCRemoteSwiftPackageReference "sunlight" */,
+			);
+			productRefGroup = 802F348826C07DDC00B810A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802F348626C07DDC00B810A0 /* Sun */,
+				80A3B7C326C292D1007F5564 /* SunWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802F348526C07DDC00B810A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802F349226C07DDD00B810A0 /* Preview Assets.xcassets in Resources */,
+				802F348F26C07DDD00B810A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A3B7C226C292D1007F5564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A3B7DD26C29656007F5564 /* Assets.xcassets in Resources */,
+				80A3B7CF26C292D1007F5564 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802F348326C07DDC00B810A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802F348D26C07DDC00B810A0 /* ContentView.swift in Sources */,
+				8036C73627FFA4BA00E79074 /* SunTableWidget.intentdefinition in Sources */,
+				80E8C6CE26C083B600C7F338 /* Preview Data.swift in Sources */,
+				8063419D26C17828000A2A5D /* LocationManager.swift in Sources */,
+				80A3B7D226C292D1007F5564 /* SunWidget.intentdefinition in Sources */,
+				8036C71727FF93FB00E79074 /* Alternate Numeral Glyphs.swift in Sources */,
+				802F348B26C07DDC00B810A0 /* SunApp.swift in Sources */,
+				80E8C6CC26C0833900C7F338 /* SunGraphView.swift in Sources */,
+				80C0AD2126C1FD9800FC4DAA /* Custom Styles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80A3B7C026C292D1007F5564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80A3B7DB26C29597007F5564 /* LocationManager.swift in Sources */,
+				8036C73A27FFA55300E79074 /* SunTableWidget.intentdefinition in Sources */,
+				8036C73927FFA54F00E79074 /* SunTableWidget.swift in Sources */,
+				80A3B7CC26C292D1007F5564 /* SunWidget.swift in Sources */,
+				80A3B7D126C292D1007F5564 /* SunWidget.intentdefinition in Sources */,
+				80A3B7DE26C29661007F5564 /* Preview Data.swift in Sources */,
+				8036C71827FF961C00E79074 /* Alternate Numeral Glyphs.swift in Sources */,
+				80A3B7DC26C2964E007F5564 /* Custom Styles.swift in Sources */,
+				80A3B7DA26C292E2007F5564 /* SunGraphView.swift in Sources */,
+				8036C73D27FFA63C00E79074 /* WidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80A3B7D426C292D1007F5564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80A3B7C326C292D1007F5564 /* SunWidgetExtension */;
+			targetProxy = 80A3B7D326C292D1007F5564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		802F349426C07DDD00B810A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		802F349526C07DDD00B810A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		802F349726C07DDD00B810A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sun/Preview Content\"";
+				DEVELOPMENT_TEAM = N99JYD94C7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mishima.Sun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		802F349826C07DDD00B810A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sun/Preview Content\"";
+				DEVELOPMENT_TEAM = N99JYD94C7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sun/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mishima.Sun;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80A3B7D726C292D1007F5564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99JYD94C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SunWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mishima.Sun.SunWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80A3B7D826C292D1007F5564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N99JYD94C7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SunWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mishima.Sun.SunWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802F348226C07DDC00B810A0 /* Build configuration list for PBXProject "Sun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802F349426C07DDD00B810A0 /* Debug */,
+				802F349526C07DDD00B810A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802F349626C07DDD00B810A0 /* Build configuration list for PBXNativeTarget "Sun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802F349726C07DDD00B810A0 /* Debug */,
+				802F349826C07DDD00B810A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80A3B7D926C292D1007F5564 /* Build configuration list for PBXNativeTarget "SunWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80A3B7D726C292D1007F5564 /* Debug */,
+				80A3B7D826C292D1007F5564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		808E86F926C0D180004B5048 /* XCRemoteSwiftPackageReference "sunlight" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/binarybirds/sunlight";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		80E8C6D226C08DB300C7F338 /* XCRemoteSwiftPackageReference "Ephemeris" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kaiede/Ephemeris.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		808E86FA26C0D180004B5048 /* Sunlight */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 808E86F926C0D180004B5048 /* XCRemoteSwiftPackageReference "sunlight" */;
+			productName = Sunlight;
+		};
+		80A3B7DF26C29779007F5564 /* Ephemeris */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80E8C6D226C08DB300C7F338 /* XCRemoteSwiftPackageReference "Ephemeris" */;
+			productName = Ephemeris;
+		};
+		80A3B7E126C29779007F5564 /* Sunlight */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 808E86F926C0D180004B5048 /* XCRemoteSwiftPackageReference "sunlight" */;
+			productName = Sunlight;
+		};
+		80E8C6D326C08DB300C7F338 /* Ephemeris */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 80E8C6D226C08DB300C7F338 /* XCRemoteSwiftPackageReference "Ephemeris" */;
+			productName = Ephemeris;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 802F347F26C07DDC00B810A0 /* Project object */;
+}
