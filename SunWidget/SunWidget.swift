@@ -61,6 +61,9 @@ struct SunWidgetEntryView : View {
 				.padding()
 			}
 		}
+		.containerBackground(for: .widget) {
+			Color(UIColor.systemBackground)
+		}
 		.colorScheme(.dark)
     }
 }
@@ -73,6 +76,7 @@ struct SunWidget: Widget {
         IntentConfiguration(kind: kind, intent: ConfigurationIntent.self, provider: Provider()) { entry in
             SunWidgetEntryView(entry: entry)
         }
+		.contentMarginsDisabled()
         .configurationDisplayName("Sun Widget")
         .description("This widget shows the position of the sun.")
     }

@@ -60,6 +60,9 @@ struct SunTableWidgetEntryView : View {
 					.padding()
 			}
 		}
+		.containerBackground(for: .widget) {
+			Color(UIColor.systemBackground)
+		}
 		.colorScheme(.dark)
 	}
 }
@@ -72,6 +75,7 @@ struct SunTableWidget: Widget {
 		IntentConfiguration(kind: kind, intent: TableConfigurationIntent.self, provider: TableProvider()) { entry in
 			SunTableWidgetEntryView(entry: entry)
 		}
+		.contentMarginsDisabled()
 		.supportedFamilies([.systemMedium])
 		.configurationDisplayName("Sun Twilight Times Widget")
 		.description("This widget shows the times of each stage of twilight.")
